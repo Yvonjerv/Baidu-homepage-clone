@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 0;
+}
+
+nav,
+footer {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 40px;
+  z-index: 100;
+}
+nav {
+  top: 0;
+  padding: 30px 10px 20px 11px;
+}
+
+.nav_container li {
+  display: inline;
+  margin: 10px 13.2px;
+  color: #000000;
+  transition: all 0.3s ease;
+}
+.nav_container a {
+  color: #000000;
+  text-decoration: none;
+  font-size: small;
+}
+
+.nav_container a:hover {
+  color: #4e71f2;
+}
+.blue_nav {
+  background-color: #4e71f2;
+  border-radius: 7px;
+  padding: 4.5px 10px;
+  color: #ffffff !important;
+}
+
+section {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section img {
+  height: 128px;
+  margin: 45px 0 16px;
+}
+
+.search_box {
+  border: #4e71f2 solid 2px;
+  background-image: linear-gradient(to right, #ffffff 87%, #4e71f2 90%);
+  border-radius: 10px;
+  padding: 0px 0px 0px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+  width: 656px;
+  object-fit: cover;
+  margin-bottom: 48px;
+}
+.search_box img {
+  height: 22px;
+  margin: 0;
+  cursor: pointer;
+}
+.search_box input {
+  border: #ffffff solid 1px;
+  width: 490px;
+  outline: none;
+  padding: 10px;
+}
+
+.search_box a {
+  background-color: #4e71f2;
+  color: #ffffff;
+  padding: 13px 18px 10px;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  height: 44px;
+  text-decoration: none;
+}
+
+.section_container {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section_container a {
+  color: black;
+  text-decoration: none;
+}
+
+.section_container a:hover {
+  color: #315aec;
+}
+.section_left {
+  width: 327px;
+  margin-left: 60px;
+}
+.section_left li {
+  padding-bottom: 16px;
+  list-style: none;
+}
+.section_left p{
+  cursor: pointer;
+}
+.camera{
+  cursor: pointer;
+}
+.camera path:hover {
+    fill: #4e71f2;
+}​
+
+footer {
+  bottom: 0;
+  background: #fbfbfb;
+  padding: 20px 15px 22px 15px;
+}
+
+footer .nav_container a {
+  color: #bbbbbb;
+  font-size: 11.7px;
+}
+footer .nav_container a:hover {
+  color: #000000;
+}
+footer .nav_container li {
+  margin: 10px 8.1px;
+}
