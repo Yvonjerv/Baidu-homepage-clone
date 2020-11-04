@@ -126,7 +126,7 @@ section img {
 .camera{
   cursor: pointer;
 }
-.camera path:hover {
+.camera:hover path{
     fill: #4e71f2;
 }​
 
